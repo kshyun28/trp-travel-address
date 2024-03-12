@@ -1,0 +1,22 @@
+{
+  "name": "trp-travel-address",
+  "version": "0.1.0",
+  "description": "Utility for encoding and decoding a travel address based on the Transfer Rule Protocol (TRP).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "trp",
+    "travel-rule-protocol",
+    "travel-address"
+  ],
+  "author": "Jasper Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "bs58check": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
