@@ -11,6 +11,10 @@
     "travel-rule-protocol",
     "travel-address"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshyun28/trp-travel-address"
+  },
   "author": "Jasper Gabriel",
   "license": "MIT",
   "dependencies": {
