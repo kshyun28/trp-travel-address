@@ -1,6 +1,6 @@
 {
   "name": "trp-travel-address",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utility for encoding and decoding a travel address based on the Transfer Rule Protocol (TRP).",
   "main": "index.js",
   "scripts": {
