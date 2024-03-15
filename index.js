@@ -1,7 +1,13 @@
 const bs58check = require('bs58check')
 
 function encodeTravelAddress(url) {
-  url = url.replace('https://', '');
+  const urlObj = new URL('https://' + url);
+  const queryString = urlObj.search;
+
+  if (!queryString.includes('t=i')) {
+    throw new Error('missing query string "t=i"');
+  }
+
   return `ta${bs58check.encode(Buffer.from(url))}`;
 }
 
