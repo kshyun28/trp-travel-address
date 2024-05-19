@@ -1,6 +1,6 @@
 # trp-travel-address
 
-Utility for encoding and decoding a travel address based on the [Transfer Rule Protocol (TRP)](https://www.openvasp.org/trp).
+Utility for encoding and decoding a travel address based on the [Travel Rule Protocol (TRP)](https://www.openvasp.org/trp).
 
 ## Install
 
